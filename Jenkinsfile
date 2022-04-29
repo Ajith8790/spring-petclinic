@@ -1,11 +1,6 @@
 
 pipeline {
-    
-    environment {
-    imagename = "mnagen/petclinic"
-    registryCredential = 'dockerhubcreds'
-    dockerImage = ''
-  }
+   
     agent any
 
     stages {
